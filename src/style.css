@@ -1,1 +1,19 @@
 /* styles go here */
+.block,
+.cats {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.block:last-child,
+.field:last-child {
+  margin-bottom: 0;
+}
+
+.cars {
+  margin-top: 10px;
+}
